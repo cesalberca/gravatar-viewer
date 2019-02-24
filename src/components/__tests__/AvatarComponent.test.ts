@@ -1,7 +1,7 @@
 import Vue from "vue";
-import AvatarComponent from "./../AvatarComponent.vue";
+import AvatarComponent from "../AvatarComponent.vue";
 import { Wrapper, shallowMount } from "@vue/test-utils";
-import { User } from "./../../domains/users/User";
+import { User } from "../../domains/users/User";
 
 describe("AvatarComponent", () => {
   let wrapper: Wrapper<Vue>;
